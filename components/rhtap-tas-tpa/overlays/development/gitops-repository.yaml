@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rhtap-tas-tpa-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/rhtap-tas-tpa-gitops
